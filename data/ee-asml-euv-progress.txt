@@ -1,0 +1,29 @@
+Semiconductor lithography vendor ASML Holding NV reported sales for the fourth quarter of 2011 that were roughly in line with analysts' expectations and guided for higher-than-expected sales in the first quarter of this year. 
+
+ASML (Veldhoven, the Netherlands) also reported continued progress on the development of next-generation extreme ultra-violet (EUV) lithography and repeated an earlier statement that it expects to deliver the first EUV production system later this year. 
+
+ASML said five of its six pre-production EUV tools in the field are now operational and printing wafers. The sixth tool is expected to start imaging during the current quarter, the company said. 
+
+The productivity of EUV tools improved to between five and seven wafers per hour at customer sites, ASML said. The company continues to target a goal of 60 wafers per hour for these systems by the end of this year. 
+
+ASML also said, as it had previously, that it expects to ship the first EUV production tool, NXE:3300, in the second half of this year. Eleven NXE:3300 systems have now been ordered, ASML said. 
+
+Eric Meurice, AMSL's president and CEO, said  through a statement that more than 5,300 wafers have now been exposed using the pre-production EUV tools. 
+
+"In parallel, we are focusing on the light source, which currently limits the system throughput, to reach our objective of proven 60 wafers per hour in the second half of 2012," Meurice said. "The work packages required for success to increase raw light power, raise duty cycle and improve conversion efficiency, have been identified and the progress in each area supports our roadmap at this time."
+
+ASML reported fourth quarter sales of 1.2 billion euros (about $1.54 billion), down 17 percent from the third quarter of 2011. For the year, the company reported sales of 5.65 billion euros  (about $7.3 billion), up 25 percent from 2010. 
+
+ASML reported a fourth quarter net income of 285 million euros (about $366.5 million), down 19 percent from the third quarter. The company posted a net income for the year of 1.47 billion euros (about $1.9 billion), up 30 percent from 2010. 
+
+ASML said it sold 35 new lithography systems in the fourth quarter, down from 46 in the third quarter. The company said it sold six used systems in the fourth quarter, down from nine in the third quarter.
+
+For the year, ASML said it sold 195 new systems, up from 154 in 2010. The company said it sold 27 used systems in 2011, down from 43 in 2010. 
+
+Fourth quarter bookings, excluding EUV systems, totaled 710 million euros (about $912 million), ASML said, up 38 percent from the previous quarter. For the year, net bookings, excluding EUV, totaled 2.9 billion euros (about $3.7 billion), down from about 6.2 billion euros in 2010. 
+
+ASML said it expects first quarter bookings to exceed bookings in the fourth quarter of 2011. The company is targeting sales of about 1.2 billion euros (about $1.5 billion) for the first quarter and  2.4 billion euros (about $3 billion) for the first half of 2012. 
+
+"Our customers are indeed continuing their introductions of advanced
+chip designs with the need to build critical mass capacity for those
+nodes," Meurice said. 

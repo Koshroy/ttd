@@ -1,0 +1,298 @@
+Tomlinson Holman
+
+Part 1 of this article examining primary factors that affect multichannel recording and listening - from the
+book "Surround Sound: Up and Running" - begins with a discussion of the principal localization
+mechanisms relating to how we locate a sound at a point in space. Introduction
+Psychoacoustics is the field pertaining to perception of sound by human beings. Incorporated within it
+are the physical interactions that occur between sound fields and the human head, outer ears, and ear
+canal, and internal mechanisms of both the inner ear transducing sound mechanical energy into electrical
+nerve impulses and the brain interpreting the signals from the inner ears.
+
+The perceptual hearing mechanisms are quite astonishing, able to tell the difference when the sound input
+to the two ears is shifted by just 10 s, and able to hear over 10 octaves of
+frequency range (visible light covers a range of less than one octave) and over a
+tremendous dynamic range, say a range of 10 million to one in pressure.
+
+Interestingly, in one view of this perceptual world, hearing operates with an ADC in
+between the outer sound field and the inner representation of sound for the brain.
+The inner ear transduces mechanical waves on its basilar membrane, caused by the
+sound energy, into patterns of nerve firings that are perceived by the brain as
+sound. The nerve firings are essentially digital in nature, while the waves on the
+basilar membrane are analog.
+
+Whole reference works such as Jens Blauert's Spatial Hearing and Brian C. J.
+Moore's An Introduction to the Psychology of Hearing, as well as many journal
+articles, have been written about the huge variety of effects that affect localization, spaciousness, and
+other topics of interest. Here we will examine the primary factors that affect multichannel recording and
+listening.
+
+Principal Localization Mechanisms
+Since the frequency range of human hearing is so very large, covering 10 octaves, the human head is
+either a small appearing object (at low frequencies), or a large one (at high frequencies), compared to the
+wavelength of the sound waves. At the lowest audible frequencies where the wavelength of sound in air is
+over 50 ft (15 m), the head appears as a small object and sound waves wrap around the head easily
+through the process called diffraction.
+
+At the highest audible frequencies, the wavelength is less than 1 in. (25 mm), and the head appears as a
+large object operating more like a barrier than it does at lower frequencies. Although sound still diffracts
+around the barrier, there is an "acoustic shadow" generated towards one side for sound originating at the
+opposite side.
+
+The head is an object with dimensions associated with mid-frequency wavelengths with respect to sound,
+and this tells us the first fundamental story in perception: one mechanism will not do to cover the full
+range, as things are so different in various frequency ranges. At low frequencies, the difference in level at
+the two ears from sound originating anywhere is low, because the waves flow around the head so freely;
+our heads just aren't a very big object to a 50-ft wave. Since the level differences are small, localization
+ability would be weak if it were based only on level differences, but another mechanism is at work.
+
+In the low-frequency range, perception relies on the difference in time of arrival at the two ears to
+"triangulate" direction. This is called the interaural time difference (ITD). You can easily hear this effect
+by connecting a 36-in. piece of rubber tubing into your two ears and tapping the tubing. Tapped at the
+center you will hear the tap centered between your ears, and as you move towards one side, the sound will
+quickly advance towards that side, caused by the time difference between the two ears.
+
+At high frequencies (which are short wavelengths), the head acts more like a barrier, and thus the level at
+the two ears differs depending on the angle of arrival of the sound at the head. The difference in level
+between the two ears is called the interaural level difference (ILD). Meanwhile the time difference
+becomes less important for if it were great confusion would result. The reason for this is that at short
+wavelengths like 1 in., just moving your head a bit would affect the localization results strongly, and this
+would have little purpose.
+
+These two mechanisms, time difference at low frequencies and level difference at high ones, account for a
+large portion of the ability to perceive sound direction. However, we can still hear the difference in
+direction for sounds that create identical signals at the two ears, since a sound directly in front of us,
+directly overhead, or directly behind produce identical ILD and ITD.
+
+How then do we distinguish such directions? The pinna or shape and convolutions of the outer ear
+interact differently for sound coming from various directions, altering the frequency response through a
+combination of resonances and refl ections unique for each direction, which we come to learn as
+associated with that direction. Among other things, pinna effects help in the perception of height.
+
+The combination of ILD, ITD, and pinna effects together form a complicated set of responses that vary
+with the angle between the sound field and the listener's head. For instance, a broadband sound source
+containing many frequencies sounds brightest (i.e., has the most apparent high frequencies) when coming
+directly from one side, and slightly "darker" and duller in timbre when coming from the front or back.
+Y ou can hear this effect by playing pink noise out of a single loudspeaker and rotating your head left and
+right.
+
+A complex examination of the frequency and time responses for sound fields in the two ear canals coming
+from a given direction is called a head-related transfer function (HRTF). A thorough set of HRTFs,
+representing many angles all around a subject or dummy head in frequency and time responses constitute
+the mechanism by which sound is localized.
+
+Another important factor is that heads are rarely clamped in place (except in experiments!), so there are
+both static cues, representing the head fixed in space, and dynamic cues, representing the fact that the
+head is free to move. Dynamic cues are thought to be used to make unambiguous sound location from the
+front or back, for instance, and to thus resolve "front"back" confusion.
+
+The Minimum Audible Angle
+The minimum audible angle (MAA) that can be discerned by listeners varies around them. The MAA is
+smallest straight in front in the horizontal plane and is about 1°, whereas vertically it is about 3°. The
+MAA remains good at angles above the plane of listening in front, but becomes progressively worse
+towards the sides and back. This feature is the reason that psychoacoustically designed multichannel
+sound systems employ more front channels than rear ones.
+
+Bass Management and Low-Frequency Enhancement Pyschoacoustics
+Localization by human listeners is not equally good at all frequencies. It is much worse at low frequencies,
+leading to practical satellite" subwoofer systems where the low frequencies from the multiple channels are
+extracted, summed, and supplied to just one subwoofer.
+
+Experimental work sought the most sensitive listener from among a group of professional mixers and
+then found the most sensitive program material (which proved to be male speech, not music). The
+experiment varied the crossover frequency from satellite to a displaced sub-woofer. From this work, a
+selection of crossover frequency could be made as two standard deviations below the mean of the
+experimental result from the most sensitive listener listening to the program material found to be most
+sensitive: that number is 80 Hz.
+
+Many systems are based on this crossover frequency, but professionals may choose monitors that go
+somewhat lower than this, to 50 or 40 Hz commonly. Even in these cases
+it is important to re-direct the
+
+somewhat lower than this, to 50 or 40 Hz commonly. Even in these cases it is important to re-direct the
+lowest bass from the multiple channels to the subwoofer in order to hear it; otherwise home listeners with
+bass management could have a more extended bass response than the professional in the studio, and low-
+frequency problems could be missed.
+
+The LFE (low-frequency enhancement) channel (the 0.1 of 5.1-channel sound), is a separate channel in
+the medium from producer to listener. The idea for this channel was generated by the psychoacoustic
+needs of listeners. Systems that have a flat overload level versus frequency perceptually overload first in
+the bass. This is because at no level is perception flat: it requires more level at low frequencies to sound
+equally as loud as in the mid-range. Thus the 0.1 channel, with a bandwidth of 1/400 the sample rate of
+44.1 or 48 kHz sampled systems (110 or 120 Hz), was added to the 5 main channels of 5.1-channel
+systems, so that headroom at low frequencies could be maintained at levels that more closely match
+perception.
+
+The level standards for this channel call for it to have 10dB greater headroom than any one of the main
+channels in its frequency band. This channel is monaural, meant for special program material that
+requires large low-frequency headroom. This may include sound effects, and in some rare instances,
+music and dialogue. An example of the use of LFE in music is the cannon fire in the 1812 Overture, and for
+dialogue, the voice of the tomb in Aladdin.
+
+The 10dB greater headroom on the LFE channel is obtained by deliberately recording 10dB low on the
+medium and then boosting by 10dB in the playback electronics after the medium. Obviously with a linear
+medium the level is reproduced as it went into this pair of offsets, but the headroom is increased by 10dB.
+Of course, the signal-to-noise ratio is also decreased by 10dB, but this does not matter because we are
+speaking of frequencies below 120 Hz where hearing is insensitive to noise.
+
+A study by a Dolby Labs engineer of the peak levels on various channels of the 5.1-channel DVD medium
+found that the recorded level maximum peaks in the LFE channel are about the same as those in the
+highest of the other 5 channels, which incidentally is the center channel. Since this measurement was
+made before the introduction of the 10-dB gain after the medium, it showed the utility of the 10-dB offset.
+
+In film sound, the LFE channel drives subwoofers in the theater, and that is the only signal to drive them.
+In broadcast and packaged video media sound played in the home, LFE is a channel that is usually bass
+managed by being added together with the low bass from the 5 main channels and supplied to one or more
+subwoofers.
+
+Effects of the Localization Mechanisms on 5.1-Channel Sound
+Effects of the Localization Mechanisms on 5.1-Channel Sound
+Sound originating at the surrounds is subject to having a different timbre than sound from the front, even
+with perfectly matched loudspeakers, due to the effects of the differing HTRFs between the angles of
+front and surround channels.
+
+In natural hearing, the frequency response caused by the HRTFs is at least partially subtracted out by
+perception, which uses the HRTFs in the localization process but then more deeply in perception
+discovers the "source timbre," which remains unchanging with angle. An example is that of a violin played
+by a moving musician. Although the transfer function (complex frequency response) changes
+dramatically as the musician moves around a room due to both the room acoustic differences between
+point of origin and point of reception, and the HRTFs, the violin still sounds like the same violin to us, and
+we could easily identify a change if the musician picked up a different violin.
+
+This is a remarkable ability, able to "cut through" all the differences due to acoustics and HRTFs to find
+the "true source timbre." This effect, studied by Arthur Benade among others, could lead one to conclude
+that no equalization is necessary for sound coming from other directions than front, that is, matched
+loudspeakers and room acoustics, with room equalization performed on the monitor system, might be all
+that is needed. In other words, panning should result in the same timbre all around, but it does not. We
+hear various effects:
+
+For sound panned to surrounds, we perceive a different frequency response than the fronts, one
+that is characterized by being brighter.
+
+For sound panned halfway between front and surrounds, we perceive some of the spectrum as
+emphasized from the front, and other parts from the surround""the sound "tears in two" spectrally
+and we hear two events, not a single coherent one between the loudspeakers.
+As a sound is panned dynamically from a front speaker to a surround speaker, we hear first the
+signal split in two spectrally, then come back together as the pan is completed.
+
+All these effects are due to the HRTFs. Why doesn't the theory of timbre constancy with direction hold
+for multichannel sound, as it does in the case of the violinist? The problem with multichannel sound is
+that there are so few directions representing a real sound field that a jumpiness between channels reveals
+that the sound field is not natural. Another way to look at this is that with a 5.1-channel sound system we
+have coarsely quantized spatial direction, and the steps in between are audible.
+
+The bottom line of this esoteric discussion is: it is all right to equalize instruments panned to the
+surrounds so they sound good, and that equalization is likely to be different from what you might apply if
+the instrument is in front. This equalization is complicated by the fact that front loudspeakers produce a
+direct sound field, reflected sound, and reverberated sound, and so do surround loudspeakers, albeit with
+different responses.
+
+Different directivity loudspeakers interacting with different room acoustics have effects as the balance
+among these factors vary too. In the end, the advice that can be given is that in all likelihood there will be
+high-frequency dips needed in the equalization of program sources panned to the surrounds to get it to
+sound correct compared to frontal presentation. The anechoic direct-sound part of this response is shown
+in Fig. 6-1.
+
+Fig. 6-1 The frequency response difference of the direct sound for a reference loudspeaker
+located at 30° to the right of straight ahead in the conventional stereo position to one located
+at 120° away from straight ahead, measured in the ear canal. This would be the equalization
+to apply to the right surround to get it to match the front right channel for direct sound, but
+not for refl ections or reverberation. Thus this curve is not likely to be directly useful as an
+equalizer, but it shows that you should not be adverse to trying equalization to better match
+instrument timbre pannel to surround. Data from E. A. G. Shaw, "Transformation of Sound
+Pressure Level from the Free Field to the Eardrum in the Horizontal Plane," J. Acoust. Soc.
+Am. Vol. 56, No. 6, pp. 1848"1861.
+
+T he Law of the First Wavefront
+Sound typically localizes for listeners to the direction of the first source of that sound to arrive at them.
+This is why we can easily localize sound in a reverberant room, despite considerable "acoustic clutter"
+that would confuse most technical equipment. For sound identical in level and spectrum supplied by two
+sources, a phantom image may be formed with certain properties discussed in the next section. In some
+cases, if later arriving sound is at a higher level than the first, then a phantom image may still be formed.
+In either of these cases a process called "summing localization" comes into play.
+
+Generally, as reflections from various directions are added to direct sound from one direction, a variety
+of effects occur. First, there is a sensation that "something has changed," at quite a low threshold. Then, as
+the level of the reflection becomes
+
+the level of the reflection becomes higher, a level is reached where the source seems broadened, and the
+timbre is potentially changed. At even higher levels of reflections, summing localization comes into play,
+which was studied by Haas and that is why his name is brought up in conjunction with the Law of the First
+Wavefront. In summing localization a direction intermediate between the two sound sources is heard as
+the source: a phantom image.
+
+For multichannel practitioners, the way that this information may be put to use is primarily in the
+psychoacoustic effects of panners, described in Chapter 4, and in how the returns of time delay and
+reverberation devices are spread out among the channels. This is discussed below under the section
+"Localization, Spaciousness, and Envelopment."
+
+Phantom Image Stereo
+Phantom Image Stereo
+Summing localization is made use of in stereo and multichannel sound systems to produce sound images
+that lie between the loudspeaker positions. In the 2-channel case, a centered phantom is heard by those
+with normal hearing when identical sound fields are produced by the left and right loudspeakers, the room
+acoustics match, and the listener is seated on the centerline facing the loudspeakers.
+
+There are two problems with such a phantom image. The first of these is due to the Law of the First
+Wavefront: as a listener moves back and forth, a centered phantom moves with the listener, snapping
+rather quickly to the location of the loudspeakers left or right depending on how much the listener has
+moved to the left or right. One principal rationale for having a center channel loudspeaker is to "throw out
+an anchor" in the center of the stereo sound field to make moving left and right, or listening from off
+center positions generally, hear centered content in the center. With three loudspeakers across the front
+of the stereo sound field in a 5.1-channel system at 0° (straight ahead) and ±30°, the intermediate
+positions at left-center and right-center are still subject to image pulling as the listening position shifts left
+and right, but the amount of such image shift is much smaller than in the 2-channel system with 60°
+between the loudspeakers.
+
+A second flaw of phantom image listening is due to the fact that there are four sound fields to consider for
+phantoms. In a 2-channel system for instance, the left loudspeaker produces sound at both the left and
+right ears, and so does the right loudspeaker. The left loudspeaker sound at the right ear can be
+considered to be crosstalk. A real centered source would produce just one direct sound at each ear, but a
+phantom source produces two. The left loudspeaker sound at the right ear is slightly delayed (~200 s)
+compared to the right loudspeaker sound, and subject to more diffraction effects as the sound wraps
+around the head. For a centered phantom, adding two sounds together with a delay and considering the
+effects of diffraction, leads to a strong dip around 2 kHz, and ripples in the frequency response at higher
+frequencies.
+
+This dip at 2 kHz is in the presence region. Increases in this region make the sound more present, while
+dips make it more distant. Many professional microphones have peaks in this region, possibly for the
+reason that they are routinely evaluated as a soloist mike panned to the center on a 2-channel system.
+Survival of the fittest has applied to microphone responses here, but in multichannel, with a real center,
+no such equalization is needed, and flatter microphones may be required.
+
+Phantom Imaging in Quad
+Quad was studied by the BBC Research Laboratories thoroughly in 1975. The question being asked was
+whether broadcasting should adopt a 4-channel format. The only formal listening tests to quadraphonic
+sound reproduction resulted in the graph shown in Fig. 6-2.
+
+
+Fig. 6-2 Phantom Imaging in Quad, from BBC Research Reports, 1975.
+
+The concentric circles represent specific level differences between pairs of channels. The "butterfly"
+petal drawn on the circular grid gives the position of the sound image resulting from the inter-channel
+level differences given by the circles. For instance, with zero difference between left and right, a phantom
+image in center front results, just as you would expect. When the level is 10dB lower in the right channel
+than the left, imaging takes place at a little over 22.5° left of center. The length of the line segments that
+bracket the inter-channel level difference circles gives the standard deviation, and at 22.5° left the
+standard deviation is small. When the inter-channel level difference reaches 30 dB, the image is heard at
+the left loudspeaker.
+
+Now look at the construction of side phantom images. With 0 dB inter-channel level difference, the sound
+image is heard at a position way in front of 90°, about 25° in front of where it should be, in fact. The
+standard deviation is also much higher than it was across the front, representing differences from person
+to person. The abbreviations noting the quality of the sound images is important too. The sound
+occurring where LB/LF are equal (at about 13) is labeled vD, vJ, translates to very diffuse and very
+"jumpy," that means the sound image moves around a lot with small head motions.
+
+Interestingly, the rear phantom image works as well as the center front in this experiment. The reason
+that the sides work differently from the front and back is of course due to the fact that our heads are not
+symmetrical with respect to these four sound fields: we have two ears, not four!
+
+Thus, it is often preferred to produce direct sound from just one loudspeaker rather than two, because
+sound from two produces phantom images that are subject to the precedence effect and frequency
+response anomalies. This condition is worse at the sides than in the front and rear quadrants. As Blauert
+puts it: "Quadrophony can transmit information about both the direction of sound incidence and the
+reverberant sound field. Directions of sound incident in broad parts of the horizontal plan (especially the
+frontal and rear sections, though not the lateral sectors) are transmitted more or less precisely. However,
+four loudspeakers and four transmission channels fall far short of synthesizing the sound field at one
+position in a concert hall faithfully enough so that an attentive listener cannot notice considerable
+differences in comparison with the original sound field."

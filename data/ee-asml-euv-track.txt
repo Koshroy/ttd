@@ -1,0 +1,33 @@
+Lithography tool vendor ASML Holding Tuesday reported third quarter sales and profit roughly in line with analysts' estimates and said that productivity improvements demonstrated by its extreme ultraviolet (EUV) source providers have ASML on track to deliver EUV scanners suitable for commercial semiconductor production in 2013 and 2014. 
+
+In a statement, Eric Meurice, ASML's president, chairman and CEO, acknowledged that EUV source power development is progressing more slowly than planned. But Meurice said, two of ASML's power source suppliers have now demonstrated technologies for power levels that should enable ASML to improve the throughput of EUV scanners from the current level--less than 10 wafers per hour--to about 15 wafers per hour. The new source technologies will be implemented in the fourth quarter. Meurice said the new development puts ASML on a roadmap to improve throughput to commercially viable levels by the summer of 2012.
+
+"We are therefore proceeding with ramping our capacity to address a number of DRAM, NAND and logic critical layers for customer wafer production in 2013 and 2014," Meurice said.
+
+Meurice's pronouncement that EUV will be ready for some commercial production by 2013 is likely to be greeted with skepticism by some. Several attendees and presenters at last month's Bacus Photomask Conference in Monterey, Calif., seemed resigned to the idea that a robust, reliable EUV power source will not be available in time to meet current schedules. 
+
+Samsung Electronics Co. Ltd. wants to insert EUV into volume memory production sometime in the 2013 to 2015 timeframe, while Intel Corp. hopes to use EUV as its mainstream lithography for critical layers at the 10-nm node in the second half of 2015. Both companies are also developing contingency plans to extend optical lithography further in the event that EUV is not ready for commercial production in time to meet their schedules. But further extension of optical lithography down to the 10-nm node would be complicated and costly, likely requiring triple-, quadruple- or even quintuple-patterning. 
+
+Low throughput due to lack of an adequate source has dogged EUV development for years. The technology at one time was to be implemented at the 22-nm node, which Intel is initiating this year, but has been pushed out several times. In addition to the source, there are a number of other hurdles still facing EUV, including photoresists, metrology, and photomask inspection, repair and cleaning. 
+
+Chip makers would like EUV scanners with throughput of 100 to 150 wafers per hour. But to date pre-production tools have offered throughput of less than 10 wafers per hour, a rate that would make commercial production economically unfeasible. Some have suggested that throughput of 80 wafers per hour might be good enough, but others are skeptical that even that rate would make EUV attractive to broad adoption. 
+
+ASML also announced Tuesday that its latest optical immersion lithography scanner, Twinscan NXT:1950i, has achieved throughput of over 200 wafers per hour and that one of those tools has surpassed the productivity milestone of more than 4,000 wafers in a single day at a customer manufacturing site.
+
+Meurice did not say which of ASML's three EUV source providers demonstrated the improved technologies. But at Bacus, Bill Arnold, ASML's chief scientist, said the company had sources from Cymer Inc. and Ushio Inc. and said the company expects to get a third source from GigaPhoton Inc. next year. Arnold said at the time that ASML recognizes the urgency of developing an adequate EUV source and had deployed some of its best engineers to be stationed on-site at suppliers' facilities to oversee and help with the development. 
+
+
+Still expecting record sales year
+ASML reported sales for the quarter of 1.46 billion euro (about $1.99 billion), down about 5 percent from the second quarter. The company reported a net income for the quarter of 355 million euro (about $485 million), down 18 percent compared to the second quarter. 
+
+ASML said it sold 46 new systems in the third quarter, down from 58 systems in the second quarter. The company said it book 23 system orders worth 514 million euro (about $701 million) during the quarter, excluding EUV systems. In the second quarter, ASML reported booking 34 non-EUV system orders worth 840 million euro (about $1.15 billion). 
+
+Despite the current turbo macro-economic environment, ASML continues to expect 2011 to be a record year for sales. The company continues to expect that total sales for the year will be more than 5.5 billion euro (about $7.5 billion). ASML said it expects fourth quarter bookings to be better than they were in the third quarter. 
+
+For the fourth quarter, ASML said it expects sales to be above 1.1 billion euro (about $1.5 billion), including one second-generation EUV system worth about 40 million euro (about $55 million) with zero profit margin. ASML maintains it makes no profit on the sale of pre-production EUV tools. 
+
+"It is too early to understand how overall demand for semiconductors
+will contribute to our business in 2012, but we believe that a
+sustained need for leading edge systems capable of new nodes will
+likely result in increased Q4 2011 bookings, compared with Q3,”
+Meurice said.

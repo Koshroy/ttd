@@ -1,0 +1,119 @@
+Introducing the NVIDIA GeForce 600M Series
+
+While the desktop-bound GeForce GTX 680 is undoubtedly the most exciting release from NVIDIA today and the true flagbearer for their new Kepler microarchitecture, NVIDIA actually has a whole host of releases ready to go on the notebook front. We've already had a chance to check out the GeForce GT 640M in action, but it's far from the only member of the old/new GeForce 600M series. Today we have details on their complete 600M series from top to bottom; some of it is exciting and new, and some of it is just the GPU industry up to its same old marketing tricks.
+
+What we're essentially looking at within the GeForce 600M series are a couple of rebrands, one brand new piece of silicon, and one die shrunk last-generation GPU. NVIDIA has assembled a motley crew with a notable absence at the top of the heap.
+
+At this point you should already be very familiar with the Fermi architecture, so the rebadges and die shrink aren't going to be that new to you; if you're not familiar, you can refresh yourself by checking out Ryan's launch article for the GeForce GTX 480 on the desktop. What you're probably really here for are details on Kepler's mobile variant. We couldn't share any details about it when we reviewed the Acer Aspire Timeline Ultra M3, and instead had to pussyfoot around what we knew of Kepler. This was made doubly difficult by the fact that NVIDIA's own Control Panel and GPU-Z didn't correctly recognize Kepler chips.
+
+For a more detailed analysis of the Kepler architecture you'll want to
+check out Ryan's review of the GeForce GTX 680, but there are some
+essential differences between Kepler and Fermi that bear repeating
+here. The only Kepler chip in NVIDIA's current mobile lineup is the
+GK107, and it sports 384 of NVIDIA's CUDA cores; architecturally it's
+basically a quarter of the GK104 that powers the GTX 680. That's one
+quarter the cores and one half the memory bus. Unfortunately it's also
+difficult to determine how many ROPs or TMUs are powering it, but the
+most recent version of GPU-Z pegs it at 16 ROPs which would
+theoretically work out to 64 TMUs. That seems to fall in line with our
+experience. Kepler also ditches the separate shader domain that's been
+a part of NVIDIA's GPUs for a long time; the GK107's CUDA cores all
+run at the same clock as the rest of the GPU, so despite having as
+many cores as the GTX 580M, performance won't be quite that high.
+
+What GK107 also brings to the table is NVIDIA Control Panel support for FXAA and TXAA, as well as NVIDIA's dedicated video encoding hardware NVENC. There's also DirectX 11.1 support and a notebook analog to the desktop's GPU Boost: the GK107 is able to dynamically increase its clock speed depending on the current thermal load within the notebook. We're not sure exactly how this is done, but it's essentially a GPU version of the Turbo Boost and Turbo Core technologies we've seen from Intel and AMD CPUs for some time. Finally, NVIDIA's Optimus graphics-switching technology makes its return.
+
+NVIDIA was happy to announce a series of design wins with Ivy Bridge, but while we're privy to them we unfortunately can't share any details with you right now. We'll have to wait until Intel's Ivy Bridge embargo lifts for that information. Suffice it to say, expect to see a LOT of GeForce 600M GPUs on the market once Ivy Bridge is launched.
+
+With that massive info dump out of the way, let's take a look at
+NVIDIA's 600M series proper.
+
+The NVIDIA GeForce 600M Lineup
+
+As mentioned perviously, NVIDIA's GeForce 600M series basically
+consists of rebadges, a die shrink, and the Kepler-based GK107. NVIDIA
+splits their mobile graphics into two categories (three if you count
+the anemic GeForce 610M): Performance and Enthusiast. Note that with
+almost every spec, NVIDIA lists them as "up to," so expect at least
+some wiggle room on core and memory clocks. Technically the memory bus
+and memory type should be consistent across implementations, though
+(with the exception of the GT 640M LE). These are their
+Enthusiast-class GTX GPUs
+
+What we're looking at, essentially, are the GeForce GTX 580M and 570M being rebadged as the 675M and 670M; the 670M sees a minor clock bump from 575MHz but these are basically the same top-end that users have been enjoying for a while now. That's not necessarily a bad thing as the 580M and 570M are capable performers, but it certainly does leave room for a new top-end mobile GPU (GTX 680M, anyone?) at some point in the future.
+
+Meanwhile, GK107 is pushed about as hard as it can be with the GTX 660M. We're still not certain on the actual core count as NVIDIA is being so liberal with their use of "Up to" clauses. If we assume the 660M will be the highest clocked mobile variant at launch, it will likely use all of the available cores while the lower end models will potentially trim down the number of active cores. According to NVIDIA, however, there's also some flexibility with the core counts and clock speeds, with the end goal being to deliver performance within a relatively tight range; more on this in a moment.
+
+Astute observers will note that NVIDIA actually already has a couple
+of 600M series GPUs in the wild; these are rebadges of existing 40nm
+GF108-based GPUs, and you'll see them in the next chart which
+represents the top half of NVIDIA's Performance (GT) line. Note also
+that NVIDIA isn't providing spec memory clocks for any of these chips;
+they're all "up to" the values shown below.
+
+So starting with the GT 650M, what's weird is that the GT 650M is, at least on paper, theoretically capable of being a faster chip than the GTX 660M. We'd guess it will either have far fewer than 384 CUDA cores or will run at lower than 850MHz clocks. We've also seen the Acer M3 with the GT 640M, which did have 384 cores clocked at 625MHz. (It also used DDR3 and was paired with a ULV CPU so it doesn't represent the maximum performance we're likely to see from the GT 640M.) Note that all of the announced 28nm Kepler parts currently use the GK107 core, but NVIDIA has not provided details on the exact core counts yet. In fact, let's just get right into the crux of the problem.
+
+At present, NVIDIA is not disclosing the exact configuration of the various GK107 parts, which means we don't know what the granularity for disabling/harvesting die will be. If GK107 uses the same 192 core SMX/GPC as GK104, we'd likely see 192 core or 384 core variants, and the charts right now suggest everything will be 384 cores with just differing clocks. With the smaller die size there's also a possibility that the chips will consist of either four 96 core GPC/SMX units or eight 48 core GPC/SMX units, and those would be the smallest functional block that can be disabled. Considering NVIDIA lists GTX 660M as "up to 835MHz" and GT 650M as "up to 850MHz", with both being "up to 384 cores", that suggests that perhaps there's more granularity available than 192 core blocks. GT 650M could have 336 cores at 850MHz or 384 cores at 740MHz and both would provide approximately the same performance. However, until we can get more information (or the parts are actually found in the wild), we can't say for sure what clocks or core counts the GK107 GPUs will use. This leads us into the next topic for these parts.
+
+Yes, NVIDIA is up to their old tricks again with the GeForce GT 640M
+LE (and given some of the above, we might see even more variations on
+the other parts as well). I thought we were over this after the
+marketing nightmare that is the GeForce GT 555M. That said, if history
+has taught us anything, it's that any chip that supports both DDR3 and
+GDDR5 is almost always going to be running DDR3 once you get into this
+performance bracket. I'm honestly not sure how we're going to be able
+to tell the two GT 640M LE's apart in the marketplace, though, outside
+of waiting for reviews to surface, and that bothers me. Our best
+advice is to make sure you research what you're getting if you want
+faster GPU performance.
+
+Speaking of the GeForce GT 555M, it's basically been rebadged as the GeForce GT 635M. Note that while NVIDIA's spec sheet lists it as only supporting GDDR5, models with DDR3 are already out in the wild. Either way, the 635M is basically a holdover from the last generation and at the risk of speculating, I wouldn't expect to see it in any great volume. NVIDIA has more profitable chips to sell, and those more profitable chips are also liable to be better citizens in terms of performance-per-watt.
+
+Unfortunately, the GT 630M is another problem child. The 28nm variant is likely going to be much more compelling than its 40nm counterpart, as NVIDIA is estimating that the shrink basically cuts the power consumption of the chip in half while delivering the same level of performance (better actually) than last generation's very popular GeForce GT 540M. Unfortunately, just like the two GT 640M LEs, there's just no way to tell which version you're going to be getting. Ultimately, we expect the 40nm parts to all disappear and be replaced by 28nm variants, but we'll have to wait and see how that plays out.
+
+By the way, that 28nm replacement of GF108 may not initially seem very compelling, but it should actually be a great and inexpensive option for getting decent graphics performance without requiring much in the way of cooling (let alone power consumption). The GT 540M has been a perfectly adequate performer this generation, and having that now become the baseline for mobile graphics performance at half the power draw is a good thing. The codename appears to be GF117 and NVIDIA is keeping many of the details close to their chest, but architecturally it's not simply a die shrink of GF108 and should include some additional enhancements that take advantage of the move to 28nm. Of course, die shrinks are never "simple", so just what has been enhanced remains to be seen.
+
+Update: NVIDIA has now posted their spec pages for the above
+GPUs. I've gone ahead and linked them in the above table and updated a
+few items. Worth noting is that the GT 650M now lists clocks of 850MHz
+with DDR3 and 735MHz with GDDR5. It looks like both versions will have
+384 cores, so OEMs will choose between more computational power and
+less bandwidth (DDR3) or less computational power and more bandwidth
+(GDDR5). NVIDIA suggested that their goal is to keep products with the
+same name within ~10% performance range, and the tradeoffs listed
+should accomplish that goal. I'm also inclined to think GK107 consists
+of two 192 core blocks now, as every product page using that core only
+states 384 cores, with the exception of the GT 640M LE, but we know
+640M LE will have both 40nm and 28nm variants. In general, we'd
+suggest going with the 28nm GDDR5 configurations when possible, as
+128-bit DDR3 has been a bit of a bottleneck for even 96 core GF108,
+never mind the improved Kepler chips.
+
+Conclusion: Bring On the GeForce 600Ms
+
+While there's a decent amount of the kind of branding chicanery we've come to really dislike in the 600M series, we have a feeling most of those rebranded chips are going to wind up being brushed aside. They're not liable to be as profitable as the 28nm GPUs once yields get up there, making them less compelling for NVIDIA to sell, and they're holdovers in terms of thermal requirements that are liable to be less compelling for OEMs. In fact, without giving too much away, the list of OEM wins in our reviewer's guide that are under embargo pretty much confirms it: the bulk of the systems on our list are using the 640M on up.
+
+Of course, what's really telling is what's missing from the list: a GeForce GTX 680M. It's tough to complain too much about the GeForce GTX 580M getting a second wind as the GTX 675M (naming shenanigans notwithstanding); the top end of mobile graphics has actually been pretty healthy since the GeForce GTX 485M and AMD Radeon HD 6950M launched. But given that the Kepler-based GK107 powering a good chunk of the 600M series possesses only a quarter of the shader power of its big brother, we expect another Kepler GPU will fill in the gap.
+
+At the same time, it wouldn't be unreasonable to expect a cut down GK104 to materialize as the GTX 680M; the desktop GTX 680 only has a TDP of 195 watts, and some careful binning and pruning of clocks (keep in mind that the desktop card is running the GPU at 1GHz and the power-hungry GDDR5 at a staggering 6GHz) could theoretically produce a competitive top-end notebook GPU. It wouldn't be unheard of; NVIDIA's crammed cut down GF100/GF110 Fermi chips into notebooks with a 100W TDP, and the GTX 680 is already very close to that level. Give NVIDIA some time to make a bunch of money selling all the GTX 680 cards they can to early adopters and then we're likely to start seeing trickle down parts, including our presumed GTX 680M.
+
+Regardless, we do have a pair of very compelling products on the table right now: the GK107 powering the GT 640M, 650M, and GTX 660M, and the 28nm replacement for GF108 at the bottom of the list. (Again, note that this isn't a straight die shrink as there are other changes.) We've already seen that the GeForce GT 640M can produce the kind of gaming experience NVIDIA claims in our own testing, and it stands to reason there's a decent amount of performance waiting to be unlocked by a jump to GDDR5 in higher-end parts, not to mention pairing the GPU with a faster Ivy Bridge (non-ULV) processor. Meanwhile, the 28nm Fermi part provides a substantial jump in performance for the bottom end of the list, allowing for a halfway decent replacement for the terminally awful GF119 (GT 520M/520MX) that's taken up residence in a few popular notebooks.
+
+All that remains to be seen is how AMD is going to respond. With the
+low idle power draw of the Southern Islands chips, AMD at least has
+some of the pieces in place, but they really need something that
+competes directly with Optimus—not just on the switching technology,
+but on reference driver updates as well. Meanwhile, Turks is already
+getting long in the tooth and would likely need a die shrink to stay
+competitive with the 600M series. That's before we even talk about the
+abnormally popular 6400M series, which will hopefully just be
+obsoleted entirely by both Ivy Bridge's IGP and the GeForce GT
+620M. But Cape Verde and Pitcairn both bode well for the mobile
+market; the 7750's 55W TDP makes it an excellent candidate for mobile
+deployment, while Pitcairn can have its clocks shaved just enough to
+make a formidable top-end notebook GPU. Either way, with the entirety
+of the current Radeon HD 7000M series just being rebrands of the 6000M
+(all the way up to the 7690M), AMD will need to step their game
+up. Hopefully as we get closer to the Ivy Bridge launch we'll see what
+they have in store.
+

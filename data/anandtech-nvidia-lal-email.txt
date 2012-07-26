@@ -1,0 +1,40 @@
+The road to any new microprocessor design is by no means simple. Planning for a major GPU like NVIDIA's Kepler starts four years prior to the chip's debut. In a world that's increasingly more focused on fast production and consumption of everything, it's insane to think of any project taking such a long period of time.
+
+Chip planning involves figuring out what you want to do, what features you want, what the architecture should look like at a high level, etc...  After several rounds of back and forth in the planning stage, actual architecture work begins. This phase can take a good 1 - 1.5 years depending on the complexity of the design. Add another year for layout and validation work, then a 6 - 9 month race from tape out to products on shelves. The teams that spend years on these designs are made up of hard working, very smart people. They all tend to believe in what they're doing and they all show up trying to do the best job possible. 
+
+Unfortunately, picking a target that's 4 years out and trying to hit
+it better than your competition is extremely difficult. You can put in
+an amazing amount of work, push through late nights, struggle with
+issues, be proud of what you've done and still fall short. We've seen
+this happen to companies on both sides of the fence, whether we're
+talking CPUs or GPUs, you win some and you lose some. 
+
+Today NVIDIA unveiled Kepler, a more efficient 28nm derivative of its Fermi architecture. The GeForce GTX 680 is the first productized Kepler for the desktop and if you read our review, it did very well. As our own Ryan Smith wrote in his conclusion to the GeForce GTX 680 review:
+
+"But in the meantime, in the here and now, this is by far the easiest recommendation we’ve been able to make for an NVIDIA flagship video card. NVIDIA’s drive for efficiency has paid off handsomely, and as a result they have once again captured the performance crown."
+
+We've all heard stories about what happens inside a company when a chip doesn't do well. Today we have an example of what happens after years of work really pay off. A trusted source within NVIDIA forwarded us a copy of Jen-Hsun's (NVIDIA's CEO) email to all employees, congratulating them on Kepler's launch. With NVIDIA in (presumably) good spirits today, I'm sure they won't mind if we share it here.
+
+If you ever wondered what it's like to be on the receiving end of a happy Jen-Hsun email, here's your chance:
+
+-----Original Message-----
+From: Jensen H Huang 
+Sent: Thursday, March 22, 2012 9:48 AM
+To: Employees
+Subject: Kepler Rising
+ 
+Today, the first Kepler - GTX 680 - is on shelves around the world!
+ 
+Three years in the making.  The endeavor of a thousand of the world's best engineers.  One vision - build a revolutionary GPU and make a giant leap in efficient-performance.
+ 
+Achieving efficient-performance, great performance while consuming the least possible energy, required us to change our entire design approach.  Close collaboration between architecture-design-VLSI-software-devtech-systems, intense scrutiny on where energy is spent, and inventions at every level were necessary.  The results are fantastic as you will see in the reviews. 
+ 
+Kepler also cultivated a passion for craftsmanship - nothing wasted, everything put together with care - with a goal of creating an exquisite product that works wonderfully.  Let's continue to raise the bar and establish extraordinary craftsmanship as a hallmark of our company.
+ 
+Today is just the beginning of Kepler.  Because of its super energy-efficient architecture, we will extend GPUs into datacenters, to super thin notebooks, to superphones.  Not to mention bring joy and delight to millions of gamers around the world.
+ 
+I want to thank all that gave your heart and soul to create Kepler.  You've created something wonderful.
+ 
+Congratulations everyone!
+ 
+Jensen

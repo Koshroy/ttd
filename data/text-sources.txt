@@ -1,0 +1,74 @@
+=== Sources found on Anandtech Blog ===
+
+1. anandtech-nvidia-sklavos.txt
+A review of an NVidia Graphics Card on the Anandtech Blog written by
+the author Sklavos.
+
+
+2. anandtech-nvidia-smith.txt
+A review of an NVidia graphics card written by the author Smith.
+
+3. anandtech-sklavos.txt
+An article about hardware not about a graphics card written by
+Sklavos.
+
+4. anandtech-nvidia-500mrefresh-walton.txt
+An email about a hardware related issue written by Walton
+
+5. anandtech-nvidia-lal-email.txt
+An Email from Lal Prasad, the owner of the Anandtech Blog about NVidia
+but not a graphics card.
+
+=== Anime Reviews found on AniDB ===
+
+1. anime-utena-review-windimage.txt
+A review of the anime Utena by AniDB user windmage.
+
+2. anime-utena-review-razorx.txt
+A review of the anime Utena by AniDB user razorx.
+
+3. anime-utena-review-petriw.txt
+A review of the anime Utena by AniDB user petriw.
+
+4. air-review-albinosqrl.txt
+A review of the anime Air by AniDB user albinosqrl.
+
+5. air-review-pantha.txt
+A review of the anime Air by AniDB user pantha.
+
+6. saikano-review-requiem.txt
+A review of the anime Saikano by AniDB user requiem.
+
+7. saikano-review-wtx.txt
+A review of the anime Saikano by AniDB user wtx.
+
+=== Articles from Foreign Affairs Magazine ===
+
+1-3. A series of articles on Developing Nations
+fa-cuba-timewarp.txt
+fa-china-glowing-pork.txt
+fa-china-challenge.txt
+
+4. A commentary on Egypt in 2013
+fa-egypt.txt
+
+
+5-7. An analysis of Countries that may benefit from the application of
+American Intervention
+fa-obamas-tango.txt
+fa-not-attack-iran.txt
+fa-flawed-strike-iran.txt
+
+8. An article talking about regime change in Iran
+fa-iran-regime-change.txt
+
+=== Articles from EE Times ==
+
+1-2. Part 1 and Part 2 of a series of articles on Psyachoustics
+ee-surround-psycho-p1.txt
+ee-surround-psycho-p2.txt
+
+3-4. Two articles about the progress of semiconductor company ASML.
+ee-asml-euv-progress.txt
+ee-asml-euv-track.txt
+

@@ -1,0 +1,190 @@
+Just about anyone can put together a solid computer using a decent midtower and the right parts. What we don't see as often is just how fast a computer can be assembled in a small form factor. More and more, too, the term "fast" isn't an all-encompassing one; as the GPU becomes increasingly important, the definition gets foggier and foggier. Today, all of these considerations collide as we test two top end configurations from Puget Systems against each other.
+
+On the outside it looks we have two systems assembled in Antec's
+ISK-110 enclosure, but on the inside, we have a showdown between Intel
+and AMD's best and brightest at 65 watts. The more cynical (and
+admittedly informed) reader may already have an idea of where this is
+going, but there are definitely some surprises in store.
+
+The Antec ISK-110 is a mini-ITX enclosure with exactly enough space for the motherboard, CPU, memory, and two 2.5" drives located on the opposite side of the chassis, underneath the motherboard tray. There's no space inside for a power supply, and indeed each enclosure comes with the necessary tools to mount it to a monitor's VESA mount, effectively hiding the entire system. As a result, the ISK-110 employs an 80-watt external power supply—good for saving space, bad for driving powerful hardware. Puget Systems faced a very real limit as to how much power could be crammed inside this chassis, but we felt like it would be a good opportunity to see just how powerful a system could be built in it...from both AMD and Intel.
+
+In an effort to keep things fair, Puget Systems tried to use as many
+of the same components as they possibly could between the two
+builds. In practice things didn't quite work out that way, as you'll
+see later.
+
+In the Blue Corner...
+
+Expectations for our Intel-based system are set appropriately; Intel's
+been leading AMD in terms of CPU performance-per-watt for quite some
+time now and there's no reason to expect anything to change here,
+especially with the bulk of the Llano desktop chips sporting 100W TDPs
+that remove them from contention for this build. Here's what we're
+testing in the Intel configuration:
+
+First of all, Puget Systems opted to equip their Intel version of the
+Echo I (the Echo II line can handle higher TDPs and includes an
+optical drive, but in a slightly bigger chassis) with the fastest CPU
+that Intel offers at a 65W TDP: the Core i7-2600S. The i7-2600S is
+able to turbo up to as fast as the regular 95W i7-2600 can on three
+cores, two cores, or even just one core, but on all four it peaks at
+2.9GHz. For all intents and purposes, that's not a huge hit in
+exchange for being able to fit inside the power envelope this
+enclosure's power supply requires.
+
+Where things do get a little bit dicier with the i7-2600S is the
+integrated graphics processor: the i7-2600S uses Intel's cut-down HD
+2000 graphics that sports half the shader cores the HD 3000 does. This
+is actually a small change of pace for us; the HD 2000 is actually
+fairly rarefied in review systems we test, as on the notebook side
+[nearly—mobile Celeron and Pentium have lesser GPUs] every CPU's IGP
+has all twelve shaders, while the desktops we test almost never run
+the IGP.
+
+Instead of full length DIMMs, the ASUS P8H67-I Deluxe uses a pair of
+SO-DIMM slots that admittedly prevent our comparison from being
+completely fair. Keeping with maximizing these configurations, Puget
+Systems filled both slots with 8GB DDR3-1333 SO-DIMMs from
+Patriot. The PCIe x16 slot is left unoccupied (and there's really no
+room for a GPU in this chassis), while the board's wireless duties are
+handled by an Atheros AR9285 controller.
+
+Finally, storage is handled by an Intel 520 series SSD with a 240GB
+capacity as the system drive, while a slow 1TB Western Digital Scorpio
+Blue running at just 5,200 RPM handles mass storage. You can actually
+configure the system with a 750GB Scorpio Black for a bit less money,
+and that drive runs at the full 7,200 RPM, making it potentially a
+more ideal choice unless you absolutely must have the extra space.
+
+Meanwhile, from the green team (red team?), Puget Systems offers a
+system based on AMD's Llano. On paper it's definitely not as
+compelling as its Intel-based counterpart, but looks can be
+deceiving. Here's the test configuration:
+
+It's very easy to be underwhelmed by the AMD A6-3500 processor at the center of the Puget Systems Echo I (AMD Edition); the processor aspect is lackluster. Technically if you look online you'll even find that it's theoretically not the fastest 65W Llano-based processor AMD produces, but in practice the faster ones are much harder to come by. In talking to our Puget Systems rep, we found that they were having a hard time sourcing the faster ones, while the A6-3500 is still relatively plentiful. A visit to NewEgg corroborates their story: the fastest Llano chip available in a 65W envelope is the A6-3500.
+
+So just how underwhelming is the A6-3500? The CPU half is three cores
+running at just 2.1GHz, able to turbo up only to 2.4GHz. These are
+reworked Stars cores from the Athlon II series now dubbed Husky cores,
+but they're still substantially slower than Intel's Sandy Bridge
+architecture clock-for-clock. Worse still, in this comparison the
+A6-3500 has to do battle with four of Sandy Bridge's cores, and they
+all run at least 700MHz faster. The CPU side of this equation isn't
+remotely evenly matched, but where availability is concerned, this is
+the best AMD has to offer.
+
+Thankfully, the other side of the A6-3500 is much more promising. The Radeon HD 6530D at the heart of the system enjoys 320 stream processors clocked at 443MHz, and while that's not too exciting in terms of raw GPU hardware, it's miles ahead of what Intel is offering in the i7-2600S. The 6530D is essentially the half of the bargain that AMD is banking on; when they talk about a balanced platform, they're talking about a CPU that's "good enough" with a GPU that can hold its own.
+
+The rest of the build is more or less identical to the Intel build on
+the previous page, featuring the same SSD, same hard drive, and even
+the same brand and speed of memory. The only difference here is that
+the ASUS board used in the AMD edition supports full-length DIMMs
+instead of SO-DIMMs, helping to bring overall system costs down
+slightly—and of course, that's ignoring the fact that the A6-3500
+retails for $79 while the i7-2600S is up at $309. Even connectivity on
+the back of the system is borderline identical, although the AMD
+system also enjoys DisplayPort where the Intel version has to make do
+with VGA; this DisplayPort connectivity also means this system can
+handle three monitors on its own.
+
+When I started testing these two systems from Puget Systems I honestly
+wasn't prepared for the kind of tug of war that would
+occur. Fundamentally, the expected results are on the page: the Intel
+CPU outclasses the AMD APU at every turn, while AMD's integrated
+graphics hardware thoroughly outclasses Intel's. I'm not going to lie
+either, the results are about what you'd expect. What impressed me was
+just how wide the gaps were. Take a look.
+
+While the A6-3500's CPU performance would certainly be fine for a notebook, it's absolutely lousy on the desktop. Granted much of our competition is pretty unfair, with overclocked systems abounding, but look at how badly it even struggles against a last-generation Phenom II X4 955, much less the Intel Core i5-2320 in the Alienware X51. The i7-2600S is consistently two-to-three times faster in roughly the same power envelope.
+
+To be fair, though, these results need to be framed in a more meaningful way than just "the A6-3500's CPU is dog slow." We need to consider the environments in which these systems are going to be used, and at the risk of sounding like an AMD apologist, I don't see many situations where the Intel chip's mammoth lead on the A6-3500 is going to be relevant. The A6-3500 is fine for basic Photoshop work, and neither of these systems are really ideal for serious video editing, where you need a much faster storage subsystem and CPU/GPU than either can provide either internally or externally.
+
+Where a computer is much more likely to see frequent (if casual) use
+is in trying to run games, and here's where things take a turn.
+
+The Intel Core i7-2600S with its crippled IGP can't even run two of our benchmarks, and only produces playable performance in one of them: Portal 2, with its ancient (albeit updated) Source engine. Meanwhile, the Radeon HD 6530D inside the A6-3500 can stretch its legs and deliver playable performance across every game except Battlefield 3, where a dip in resolution or settings will render that game playable as well.
+
+Granted, these are conservative settings at a relatively low
+resolution, but the point remains that if someone wants to play a game
+on the A6-3500, they can, and reasonably comfortably. I've seen
+someone suddenly decide they want to try and play a game only to
+discover their system's integrated graphics can't handle it at all,
+and forums are rife with threads of people asking how to upgrade the
+graphics of their cheap desktops or their notebooks being met with the
+same answer: "you're screwed." With larger desktop systems, it's a
+different matter, but for mini-ITX and laptops you have to be prepared
+to live with whatever graphics the system includes from the factory.
+
+Given the small nature of the Antec ISK-110 enclosures Puget Systems
+employs for their Echo I systems, it's not going to be much of a
+surprise that there's really only so much they can do to make build
+quality stand out. For what it's worth, the systems are put together
+as well as one can expect. Both use stock coolers from AMD and Intel,
+but given the low TDPs of the two processors (as well as the cramped
+confines of the enclosure) these coolers are never given much of a
+workout. Cabling is routed as well as can be expected, and Puget
+Systems filled both of the 2.5" drive bays. These systems really are
+packed to the gills.
+
+This is a good time to bring up one of the ways Puget Systems
+distinguishes themselves from other boutiques, though. If you opt to
+configure a system on their site, you're going to find the number of
+available components substantially lower than you will from any other
+boutique. This has to do with their validation procedures; Puget is
+extremely picky about the parts they include in the desktops they ship
+and while I'd like to see this confidence reflected in a longer
+warranty than just one year, I've seen enough of their data (and their
+customer feedback) to corroborate their claims. It's the reason you
+only see Intel SSDs in their systems, for example.
+
+It's also part of the reason why our AMD system is fighting a bit of an unfair fight, a point we brought up with Puget Systems and one they recognized. It's well known that Llano will use all the memory bandwidth it can get its hands on, while Sandy Bridge is much less sensitive. Puget hasn't qualified any 8GB DDR3-1600 DIMMs for deployment in any of their builds, and so they erred on memory capacity instead of speed. In conversations via e-mail, they even admitted this was probably a mistake in this instance. The problem is that they also don't offer any 2GB or 4GB DDR3-1600 DIMMs for the AMD-based system, either, when they do have 4GB DDR3-1600 DIMMs qualified for other builds.
+
+As an aside, I did contact Puget Systems and ask why their parts
+warranty period was so limited compared to other boutiques, and their
+rationale is actually a fairly sound one: there's just no guarantee
+that the replacement parts will continue to be available for three
+years, given how fast hardware turns over in this industry. They don't
+feel a standard three year warranty is something they can in good
+conscience live up to, and so the three year warranty upgrade they
+offer is actually in place to cover the costs of offering brand new
+kit to replace defunct hardware should the need arise.
+
+While I wasn't expecting too much in the way of thermal issues even with the stock cooling, I felt like noise could've gone either way when I pulled the two Echo systems out of their boxes. The side panel above the motherboard is completely ventilated, allowing fresh air to circulate inside the enclosure. That's great for cooling, but does absolutely nothing to muffle noise.
+
+Thankfully, the circulating cool air does wonders to keep either
+heatsink's fan from having to work particularly hard. Neither system
+is actually audible while running unless you put your ear up to the
+open side; any kind of ambient noise in the room will muffle them. The
+result is that both systems never see temperatures above the low 60C
+on the cores, and noise is essentially a non-issue unless you're
+looking for a "silent" system.
+
+Power Consumption
+
+Most of the test results up to this point have been fairly
+predictable, but power consumption was a big surprise and a pretty
+stunning upset. Rather than build you up to it, I'll just show you.
+
+At both idle and load, the AMD-based system beats the Intel-based
+one. Look at the load numbers in particular; the A6-3500 is able to
+beat the Intel Core i7-2600S by nearly thirty watts. I expected both
+to be frugal, but the A6-3500 is actually performing well under its
+rated wattage.
+
+Conclusion: AMD's Dark Horse
+
+What we're really looking at today are two things: the Puget Systems Echo I as a system in both AMD and Intel configurations, and what AMD and Intel bring to the table in this smallest of form factors.
+
+First of all, from the value standpoint, Puget Systems just isn't winning this fight. The Intel Echo I in the configuration we have for review is marked up nearly $450 from building it yourself, retail. That's basically a ~40% markup on the cost of parts, and when we're talking about a nearly $1,800 desktop, it's just too difficult to turn a blind eye. The AMD model fares little better; the savings is essentially commensurate with the difference in price between the A6-3500 and the i7-2600S. I try to be fairly forgiving of boutiques, and I recognize that they have to make a living, but this markup is pretty high even for a high quality boutique like Puget Systems.
+
+From the review standpoint, this also probably wasn't as fair a fight as it should've been. While we were gunning for the most powerful AMD and Intel systems that could conceivably be built in this form factor, the differences between the platforms weren't accounted for (thus the DDR3-1333 in the AMD build), and a better foil for the A6-3500 might actually have been the Intel Core i5-2405S, the only Intel chip Puget offers for the Echo that has HD 3000 graphics instead of HD 2000. In fact, if you were going to build an Echo and wanted to go Intel, I think that's the chip you want and not the i7-2600S, which just isn't worth the $130 premium in this reviewer's opinion.
+
+With the data we do have on the table, though, I find myself leaning towards the AMD build. I remain an avid proponent of Llano in notebooks while being skeptical of it in the desktop market, but in a small form factor build I do think AMD is correct in asserting that they have the better proposition in terms of building a balanced platform. The question is, as always, what you're planning on doing with the computer.
+
+You already know if you need a system small enough to be mounted to the back of a monitor, and we're not arguing the merits of going with a small form factor system over a standard desktop here. If you do need every last shred of CPU performance, obviously you're going to want to buy Intel; that's not even a question. However, if your usage model is much broader, it bears mentioning that there's technically nothing an i3/i5/i7 processor can do that an A6-3500 can't; the A6 just may be slower getting there. The flipside is that the HD 2000 on most of Intel's desktop chips is inadequate for any kind of gaming, full stop, while the Radeon HD 6530D in the A6-3500 is going to be able to play games. (And while an HD 3000 equipped CPU would help, it's still not going to be enough in our opinion for most games at anything above minimum detail settings.)
+
+If I had to choose which of these two systems I'd find more useful, no question, I'd go with the AMD system. It's true that I edit video on my desktop, but I also play a lot of games on my desktop. The A6-3500 can still edit video, albeit slowly, but the Intel chips aren't going to let me play Left 4 Dead 2 or Quake Wars with my friends.
+
+We're left with two conclusions to our two questions: How is the Puget Systems Echo I, and what are AMD and Intel bringing to the small form factor table? The answer to the first question is that the build is certainly fine, but it's uncompetitive on price, and the gulf is wide enough that I can't recommend spending that much more money with Puget Systems when another boutique will be willing to build the same systems for you in a custom order for less. Likewise, while we understand the rationale for the default warranty length, given the large price markup it feels stingy. Sure, most desktops will last three years no problem regardless, but we'd like to see that backed up by the manufacturer, "just in case". As to the second, it's a matter of perspective and what you're intending to use the system for, but for the general user with a broader usage model, I think Llano is the clear winner.
+
+Of course, this is really an old battle we're looking at here. The real question that we can't answer just yet is what will happen in the next round of CPU/APU updates. Ivy Bridge will certainly shore up some of the graphics deficiencies on the Intel side, and Trinity may improve the CPU side of AMD's offerings while further improving on their graphics capabilities. Both are due out in the not too distant future, so if you haven't yet jumped on the Sandy Bridge or Llano bandwagon, waiting for the pending refreshes might be the best tact right now.
