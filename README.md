@@ -101,7 +101,7 @@ centroid. The *minimum* value of these distortions was obtained and
 tracked. If on a subsquent run the minimum distortion was less than
 the minimum distortion of a previous run, then that run was considered
 the current most optimal run. Running the algorithm a max of
-#-of-text/2 times (i.e. there could be at most 2 topics per topic), I
+number-of-text/2 times (i.e. there could be at most 2 topics per topic), I
 was able to come up with a maximum number of topics.
 
 3. Performance was not as well as I had hoped. Often times multiple
